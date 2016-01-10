@@ -1,0 +1,386 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "icip_jseo.tex",
+			"settings":
+			{
+				"buffer_size": 8793,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "introduction/intro.tex",
+			"settings":
+			{
+				"buffer_size": 821,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/LaTeXing/LaTeX.sublime-build",
+					""
+				],
+				[
+					"Packages/LaTeXing/LaTeX.sublime-build",
+					"Clean up Files"
+				]
+			],
+			[
+				"Packages/LaTeXing/LaTeX.sublime-build",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 127.0,
+		"last_filter": "synch",
+		"selected_items":
+		[
+			[
+				"synch",
+				"LaTeXing: Synchronise Remote Data"
+			],
+			[
+				"latexing",
+				"LaTeXing: Show Log Panel"
+			],
+			[
+				"package up",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"synchro",
+				"LaTeXing: Synchronise Remote Data"
+			],
+			[
+				"show",
+				"LaTeXing: Show Log Panel"
+			],
+			[
+				"latexing log",
+				"LaTeXing: Show Log Panel"
+			],
+			[
+				"sync",
+				"LaTeXing: Synchronise Remote Data"
+			],
+			[
+				"latexing ",
+				"Preferences: LaTeXing Settings - Toggle Value"
+			],
+			[
+				"sslatex",
+				"Set Syntax: LaTeX"
+			],
+			[
+				"latexing check",
+				"LaTeXing: Check System"
+			],
+			[
+				"latexing settings",
+				"Preferences: LaTeXing Settings - Toggle Value"
+			],
+			[
+				"latexing chec",
+				"LaTeXing: Check System"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 416.0
+	},
+	"console":
+	{
+		"height": 269.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/E/MyPapers/[ICIP16] KeypointFiltering"
+	],
+	"file_history":
+	[
+		"/E/MyPapers/[ICIP16] KeypointFiltering/icip_jseo.bbl",
+		"/E/MyPapers/[ICIP16] KeypointFiltering/Remote.bib",
+		"/C/Users/Jonghoon Seo/AppData/Roaming/Sublime Text 3/Packages/LaTeXing/LaTeXing.sublime-settings",
+		"/C/Users/Jonghoon Seo/AppData/Roaming/Sublime Text 3/Packages/User/LaTeXing.sublime-settings",
+		"/E/MyPapers/[ICIP16] KeypointFiltering/introduction/intro.tex",
+		"/E/MyPapers/[ICIP16] KeypointFiltering/[ICIP16] KeypointFiltering_win.sublime-project",
+		"/E/MyPapers/Turtle/5.ExperimentalResult/table11.tex",
+		"/E/MyPapers/Turtle/5.ExperimentalResult/table7.tex",
+		"/E/MyPapers/Turtle/2.RelatedWorks/RelatedWorks.tex",
+		"/E/MyPapers/Turtle/5.ExperimentalResult/table12.tgn",
+		"/E/MyPapers/Turtle/5.ExperimentalResult/fig19_b.png",
+		"/E/MyPapers/Turtle/6.Conclusion/Conclusion.tex",
+		"/E/MyPapers/Turtle/4.Proposed/ProposedContourTracingAlgorithm.tex",
+		"/C/Users/Jonghoon Seo/AppData/Roaming/Sublime Text 3/Packages/User/LaTeXing/zotero.map"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 90.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"Fast_Contour_Tracing_Algorithm",
+			"accuracy",
+			"2.7",
+			"2cm",
+			"11",
+			"\\#",
+			"\\\\#\\d+(\\s*)&",
+			"551",
+			"\\\\#\\d+(\\s*)&",
+			"\\\\#\\d+(\\s*)",
+			"  &",
+			"           & ",
+			"12",
+			"1",
+			"12",
+			"\\multicolumn{2}{l}",
+			"tabular",
+			"table",
+			"—",
+			"-",
+			"img18",
+			"fig18",
+			"fig18_a",
+			"image18",
+			"img19",
+			"image19",
+			"–",
+			"sim",
+			"fig15",
+			"img15",
+			"img9",
+			"4.Proposed",
+			"99.5",
+			"-",
+			"’",
+			"-",
+			")–(",
+			"img12",
+			"fig12",
+			"img13",
+			"12",
+			"12(",
+			"contour pixel reconstruction",
+			"img8",
+			"3.Analysis/fig8",
+			"table:proposed_result",
+			"fig:comparison",
+			"Figure 10",
+			"fig:state",
+			"Figure 9",
+			"proposed_cases",
+			"(",
+			"sumatraPDF",
+			"zotero"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+			"\\\\#\\d+(\\s*  )&",
+			"    ",
+			"\\ref{fig:image10}"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": true,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "icip_jseo.tex",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 8793,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								8005,
+								8005
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/LaTeXing/support/LaTeX.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 2929.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "introduction/intro.tex",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 821,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								821,
+								821
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/LaTeXing/support/LaTeX.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 245.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "[ICIP16] KeypointFiltering_win.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 187.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
