@@ -4,6 +4,14 @@
 % --------------------------------------------------------------------------
 \documentclass{article}
 \usepackage{spconf,amsmath,graphicx}
+% 한글 패키지
+\usepackage{kotex}
+\usepackage[unicode, hidelinks]{hyperref}
+
+% *** MATH PACKAGES ***
+%
+\DeclareMathOperator*{\argmin}{argmin}
+\usepackage{amsfonts}
 
 % Example definitions.
 % --------------------
@@ -58,6 +66,8 @@ One, two, three, four, five
 \end{keywords}
 %
 \input{introduction/intro.tex}
+\input{proposed/proposed.tex}
+
 
 \section{Formatting your paper}
 \label{sec:format}
