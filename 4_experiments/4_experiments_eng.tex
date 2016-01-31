@@ -1,7 +1,8 @@
-%!TEX root = ../OpenNUI_Platform__Design_of_Smart_Space_Interaction_Platform.tex
+%!TEX root = ../icip_jseo.tex
+% -*- root: ../icip_jseo.tex -*-
 
 
-\subsection{Experiments}
+\section{Experiments}
 
 % 앞에서 제안한 특징점 Filtering 알고리즘을 이용하여 학습을 수행하였을 때 인식 성능의 개선을 측정하였다. 
 
@@ -20,7 +21,7 @@ First the improvement of recognition speed was measured. As for the proposed met
 
 \begin{figure}[ht!]
 \centering
-\includegraphics[width=1.0\textwidth]{4_MarkerlessAR/ex_time}
+\includegraphics[width=1.0\columnwidth]{4_experiments/ex_time}
 \caption{Time Comparison Among Conventional Full Database and Proposed Filtered Database}
 \label{fig:markerless_time_experiments}
 \end{figure}
@@ -41,7 +42,7 @@ The results of the measurement of recognition rate using the above method were d
 
 \begin{figure}[ht!]
 \centering
-\includegraphics[width=1.0\textwidth]{4_MarkerlessAR/roc}
+\includegraphics[width=1.0\columnwidth]{4_experiments/roc}
 \caption{ROC curve for match rate}
 \label{fig:markerless_roc}
 \end{figure}
@@ -53,14 +54,14 @@ When performing keypoint filtering, the bad keypoints causing miss-match are eli
 
 \begin{figure}[t!]
 \centering
-\includegraphics[width=1.0\textwidth]{4_MarkerlessAR/precision}
+\includegraphics[width=1.0\columnwidth]{4_experiments/precision}
 \caption{Precision of filtered keypoint database}
 \label{fig:markerless_precision}
 \end{figure}
 
 \begin{table}[b!]
 \centering
-%\resizebox{\textwidth}{!}{%
+%\resizebox{\columnwidth}{!}{%
 \begin{tabular}{llllll}
 \hline
 \textbf{}                   & \textbf{$K_{50}$} & \textbf{$K_{100}$} & \textbf{$K_{300}$} & \textbf{$K_{500}$} & \textbf{$K_{all}$} \\
