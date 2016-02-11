@@ -28,9 +28,9 @@
 %
 % Single address.
 % ---------------
-\name{Jonghoon Seo, Seungho Chae,Yoonsik Yang, Heeseung Choi, Tack-Don Han \thanks{Thanks to KIST and NFS for funding.}}
-\address{Author Affiliation(s)}
-%
+% \name{Jonghoon Seo$^{1}$, Seungho Chae$^{2}$, Yoonsik Yang$^{2}$, Tack-Don Han \thanks{Thanks to KIST and NFS for funding.}}
+% \address{	Software Platform R\&D Lab.\\ LG Electronics Advanced Research Institute\\ 19 Yangjae-daero 11 gil, Seocho-gu, Seoul 137-893, Kore}
+
 % For example:
 % ------------
 %\address{School\\
@@ -39,39 +39,36 @@
 %
 % Two addresses (uncomment and modify for two-address case).
 % ----------------------------------------------------------
-%\twoauthors
-%  {A. Author-one, B. Author-two\sthanks{Thanks to XYZ agency for funding.}}
-%	{School A-B\\
-%	Department A-B\\
-%	Address A-B}
-%  {C. Author-three, D. Author-four\sthanks{The fourth author performed the work
-%	while at ...}}
-%	{School C-D\\
-%	Department C-D\\
-%	Address C-D}
-%
+\twoauthors
+ {Jonghoon Seo}
+	{LG Electronics\\
+	Software Platform R\&D Lab.\\
+	19 Yangjae-daero 11 gil, Seoul, Korea}
+ {Seungho Chae, Yoonsik Yang, Tack-Don Han\sthanks{This }}
+	{Yonsei University\\
+	Department of Computer Science\\
+	50 Yonsei-ro, Seoul, Korea}
+
+ %
 \begin{document}
 %\ninept
 %
 \maketitle
 %
 \begin{abstract}
-The abstract should appear at the top of the left-hand column of text, about
-0.5 inch (12 mm) below the title area and no more than 3.125 inches (80 mm) in
-length.  Leave a 0.5 inch (12 mm) space between the end of the abstract and the
-beginning of the main text.  The abstract should contain about 100 to 150
-words, and should be identical to the abstract text submitted electronically
-along with the paper cover sheet.  All manuscripts must be in English, printed
-in black ink.
+Local keypoint matching method is widely used because it can provide robust to environment change and occlusion. In this paper, we propose a novel keypoint filtering approach, which accomplish not only fast, but also robust and reliable matching. The proposed approach, in offline learning phase, evaluates detected keypoints with proposed criteria and stores only high-distinguishable keypoints. This approach reduces the number of stored keypoints, also reduces false matching rate and attains fast and robust matching quality. We evaluated this approach in mobile augmented reality application, and proved the proposed approach is effective in terms of both matching speed and quality.
+
+% 로컬 키포인트 매칭 방법은 조명 변화나 가려짐 등에서도 강인한 매칭 성능을 제공하기 때문에 다양한 이미지 매칭 어플리케이션에서 사용되고 있다. 본 논문에서는 빠를 뿐만 아니라 강인한 인식 성능을 제공하기 위하여 키포인트 필터링 방법을 제안한다. 제안하는 방법은 offline learning 단계에서 추출된 키포인트들을 평가하여 구분이 잘 되는 점들만을 저장한다. 이를 통하여 저장되는 키포인트의 개수를 줄이면서도 false matching을 줄여 강인한 인식 성능을 얻을 수 있도록 하였다. 모바일 증강현실 어플리케이션에서 실험결과 제안하는 방법을 적용함으로써 인식 속도가 빨라질 뿐만 아니라, 매칭의 퀄리티도 높아지는 것을 확인할 수 있ㄷ었다. 이러한 방법을 통해 모바일 및 임베디드 컴퓨팅 환경에서 더 빠르고 강인한 인식 성능을 제공할 수 있다.
+
 \end{abstract}
 %
 \begin{keywords}
-One, two, three, four, five
+Keypoint filtering, Keypoint matching, Feature selection, Keypoint saliency, Image matching
 \end{keywords}
 %
 \input{1_introduction/intro.tex}
 \input{2_relworks/2_relwork_eng.tex}
-\input{3_proposed/3_msl_nft_eng.tex}
+\input{3_proposed/3_proposed.tex}
 \input{4_experiments/4_experiments_eng.tex}
 \input{5_conclusion/5_conclusion.tex}
 

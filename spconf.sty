@@ -188,6 +188,19 @@
         {\em #3} \\ \\
         #4\relax
 \end{tabular}}}
+\def\threeauthors#1#2#3#4#5#6{\gdef\@address{}
+   \gdef\@name{\begin{tabular}{@{}c@{}}
+        {\em #1} \\ \\
+        #2\relax
+   \end{tabular}\hskip 0.1in\begin{tabular}{@{}c@{}}
+        {\em #3} \\ \\
+        #4\relax
+   \end{tabular}\hskip 0.1in\begin{tabular}{@{}c@{}}
+        {\em #5} \\ \\
+        #6\relax
+
+\end{tabular}}}
+
 
 \def\@sect#1#2#3#4#5#6[#7]#8{
    \refstepcounter{#1}\edef\@svsec{\csname the#1\endcsname.\hskip 0.6em}
